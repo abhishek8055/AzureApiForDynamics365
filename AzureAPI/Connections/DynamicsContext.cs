@@ -33,8 +33,8 @@ namespace AzureAPI.Connections
             try
             {
                 ClientCredentials clientCredentials = new ClientCredentials();
-                clientCredentials.UserName.UserName = "abhishek@encore911.onmicrosoft.com";
-                clientCredentials.UserName.Password = "encore@no18055";
+                clientCredentials.UserName.UserName = "****************";
+                clientCredentials.UserName.Password = "****************";
 
                 // For Dynamics 365 Customer Engagement V9.X, set Security Protocol as TLS12
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
